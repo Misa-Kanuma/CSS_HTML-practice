@@ -17,6 +17,8 @@ header {
 	text-align: center;
 	padding: 15px 0;
 	margin:0 auto;
+	border-bottom: 1px solid #848282;
+    border-top: 1px solid #848282;
 }
 .nav-list-item{
 	list-style: none;
@@ -25,7 +27,7 @@ header {
 }
 .main{
 	width: 800px;
-	height: 600px;
+	/*height: 600px; */
 	margin: 50px auto;
 }
 .box1{
