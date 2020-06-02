@@ -6,12 +6,12 @@
 header{
 	width: 10%;
 }
-header .headline{
+.headline{
 	font-size: 22px;
 }
-.nav-list{
+.nav{
 	text-align: center;
 }
-.nav-list-item{
+.list{
 	padding-left: 40px;
 }
