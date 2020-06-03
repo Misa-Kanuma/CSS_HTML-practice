@@ -54,7 +54,7 @@ header .headline{
 	margin-top: 30px; /* 上側の外側の余白 */
 	color: #fff; /* 文字色を白に変更 */
 }
-.main {
+main {
 	width: 800px; /* 横幅 */
 	/*height: 1400px; /* 高さ（多めに設定） */
     /* 中央寄せ（余白がないとできない） */
@@ -85,11 +85,11 @@ header .headline{
 	float: left;
 }
 .blog-text-headlne{
-	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 .blog-text{
 	float: left;
-	margin: 30px 0 0 25px;
+	padding: 30px 0 0 25px;
 }
 .blog-date{
 	display: inline-block;
