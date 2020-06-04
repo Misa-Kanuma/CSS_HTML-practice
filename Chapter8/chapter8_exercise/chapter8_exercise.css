@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.list{
+	width: 960px;
+	list-style: none;
+	margin: 0;
+	padding: 50px 0;
+	display: inline-block;
+}
+.uneven{
+	list-style: none;
+	width: 960px;
+	background-color: #dcdcdc;
+	/*line-height: 20px;*/
+	padding-left: 20px;
+}
+.even{
+	list-style: none;
+	width: 960px;
+	/*line-height: 20px;*/
+	padding-left: 20px;
+}
+main{
+	width: 960px;
+	height: 680px;
+}
+.main-visual-o{
+	width: 30%;
+	height: 200px;
+	background-color: orange;
+	float: left;
+}
+.main-visual-y{
+	width: 30%;
+	height: 200px;
+	background-color: yellow;
+	float: left;
+}
